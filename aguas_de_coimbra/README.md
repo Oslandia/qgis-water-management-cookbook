@@ -5,11 +5,11 @@ One day simulation for a real case study
 
 Line witdh is proportional to diameter...
 
-![Network](images/ac02.pk.png)
+![Simulation panel](images/ac02.pk.png)
 
-![Network](images/ac04.pk.png)
+![Time agregates symbology](images/ac04.pk.png)
 
-![Network](images/ac05.pk.png)
+![Curve plot](images/ac05.pk.png)
 
 Credits
 =======
