@@ -49,7 +49,7 @@ In this example the reservoir is defined with a fixed head and the pump is defin
 ![valves](images/ac11.png)
  <br>
 3.4. Junctions details: <br>
-Junctions are characterised essentially by the elevation and demands. The demands were calculated with the average consumptions of the geo-located clients and assigned to the nearest node. Each demand is defined by the demand value and its pattern.
+Junctions are characterised essentially by the elevation and demands. The demands were calculated with the average consumptions of the geo-located clients and assigned to the nearest node. Each demand is defined by the demand value and its pattern. <br>
 ![junctions](images/ac12.png)
  <br>
 3.5. Pipes details: <br>
