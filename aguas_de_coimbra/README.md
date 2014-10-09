@@ -30,29 +30,29 @@ For this example, we build the model already for you. You can open it in 2 ways:
 
 ###2.1. Open the project with the spalite data base: 
 
-![Spalite_project](images/ac02.png)
+![Spalite_project](images/ac02.pk.png)
  
 
 ###2.2. Insert the the shape files and the csv tables in your project: 
 
-![Shape_files](images/ac04.png)
-![csv_tables](images/ac05.png)
+![Shape_files](images/ac04.pk.png)
+![csv_tables](images/ac05.pk.png)
  
 
 Finally, you should get the model in QGIS:  
 
-![Model](images/ac03.png)
+![Model](images/ac03.pk.png)
  
 
 You can add a base map in QGIS, such an OSM base layer with OpenLayers plugin: 
 
-![OSM_adding](images/ac07.png)
-![OSM_basemap](images/ac08.png)
+![OSM_adding](images/ac07.pk.png)
+![OSM_basemap](images/ac08.pk.png)
  
 
 Note: This example is defined in the Portuguese Grid projection - EPSG:20791  
 
-![example_projection](images/ac06.png)
+![example_projection](images/ac06.pk.png)
  
 
 ##3. Model dataset 
@@ -64,55 +64,55 @@ Now let's take a look at the model objects. You can open the attributes table fo
 
 In this example the reservoir is defined with a fixed head and the pump is defined with an head-discharge curve defined in the "curves" table. 
 
-![reservoirs_pumps](images/ac09.png)
+![reservoirs_pumps](images/ac09.pk.png)
  
 
 ###3.2. Tank details: 
 
-![tanks](images/ac10.png)
+![tanks](images/ac10.pk.png)
  
 
 ###3.3. PRV valve details: 
 
-![valves](images/ac11.png)
+![valves](images/ac11.pk.png)
  
 
 ###3.4. Junctions details: 
 
 Junctions are characterised essentially by the elevation and demands. The demands were calculated with the average consumptions of the geo-located clients and assigned to the nearest node. Each demand is defined by the demand value and its pattern. 
 
-![junctions](images/ac12.png)
+![junctions](images/ac12.pk.png)
  
 
 ###3.5. Pipes details: 
 
-![pipes](images/ac13.png)
+![pipes](images/ac13.pk.png)
  
 
 ###3.6. General tables: 
 
 General tables presented in the next figure define the EPANET options, simulation times and report options. Related with the system operation, a status table define the initial condition of several objects and the controls define the operation rules of the pump. 
 
-![tables](images/ac14.png)
+![tables](images/ac14.pk.png)
  
 
 ##4. Model runs 
 
 To run the model you just have to open the EPANET-QGIS plugin in the processing toolbox. Then verify if all the objects are correctly selected, that should be automatically assigned to each category if they have similar name.
-![plugin](images/ac15.png)
+![plugin](images/ac15.pk.png)
  
 
 Press Run and check out the results in QGIS! 
 
-![results](images/ac16.png)
+![results](images/ac16.pk.png)
  
 
 ##5. Model results 
 
 The results can also be visualized with support of a base map that can be OSM or existing ones: 
 
-![results_osm](images/ac17.png)
-![results_ortos](images/ac18.png)
+![results_osm](images/ac17.pk.png)
+![results_ortos](images/ac18.pk.png)
  
 
 Then you can visualise results for each object. Just as an example, the following section show the simulation results for the main objects of this system. 
@@ -121,21 +121,21 @@ Then you can visualise results for each object. Just as an example, the followin
 
 The following figure shows the flow in the pump and the pressure in its downstream node.  
 
-![results_pump](images/ac19.png)
+![results_pump](images/ac19.pk.png)
  
 
 ###5.2. Tank results: 
 
 The following figure shows the tank level and the flow velocity in its inlet and outlet pipes. 
  
-![results_tank](images/ac20.png)
+![results_tank](images/ac20.pk.png)
  
 
 ###5.2. PRV results: 
 
 The following figure shows the PRV operation with the pressure in its inlet and outlet nodes. 
 
-![results_prv](images/ac21.png)
+![results_prv](images/ac21.pk.png)
  
 
 ##6. Conclusions 
