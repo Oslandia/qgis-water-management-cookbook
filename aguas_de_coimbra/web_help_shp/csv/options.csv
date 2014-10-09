@@ -1,0 +1,2 @@
+simulation title,Units,Headloss,Hydraulics,Quality,Viscosity,Diffusivity,Specific gravity,Trials,Accuracy,Unbalanced,Pattern,Demand multiplier,Emitter exponent,Tolerance
+Epanet Simulation,LPS,H-W,,NONE,1,1,1,40,0.001,CONTINUE,Domestic,1,0.5,0.001

@@ -1,0 +1,3 @@
+Link,Status,Condition
+LINK pump1,CLOSED,IF NODE Tank1 ABOVE 3
+LINK pump1,OPEN,IF NODE Tank1 BELOW 1.35

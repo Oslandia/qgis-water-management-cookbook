@@ -1,0 +1,2 @@
+simulation title,duration,hydraulic timestep,quality timestep,pattern timestep,pattern start,report timestep,report start,start clocktime,statistic
+Epanet Simulation,24:00:00,00:05,00:15,00:15,00:00,00:05,00:00,12:00 AM,None
