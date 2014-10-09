@@ -5,14 +5,14 @@ This example is a one day simulation of a real network. It aims to present the u
 The EPANET model used in this example was developed by AC, Águas de Coimbra, E.M., a water utility company that manages the water supply and the drainage system of Coimbra, Portugal.
  
 
-1. Model characterization:
+##1. Model characterization:
 
-*Reservoirs: 1 un. 
-*Tanks: 1 un. 
-*Junctions: 272 un. 
-*Pipes: 294 un. (29.27 km) 
-*Pumps: 1 un. 
-*Valves: 1 un. (pressure reducing valve - PRV) 
+- Reservoirs: 1 un. 
+- Tanks: 1 un. 
+- Junctions: 272 un. 
+- Pipes: 294 un. (29.27 km) 
+- Pumps: 1 un. 
+- Valves: 1 un. (pressure reducing valve - PRV) 
 
  
 
