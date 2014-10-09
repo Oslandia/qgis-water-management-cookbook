@@ -18,7 +18,7 @@ The EPANET model used in this example was developed by AC, Águas de Coimbra, E.
 
 Overall map: 
 
-![Network](images/ac1.png)
+![Network](images/ac01.png)
  
 
 ##2. Model building: 
@@ -30,29 +30,29 @@ For this example, we build the model already for you. You can open it in 2 ways:
 
 ###2.1. Open the project with the spalite data base: 
 
-![Spalite_project](images/ac2.png)
+![Spalite_project](images/ac02.png)
  
 
 ###2.2. Insert the the shape files and the csv tables in your project: 
 
-![Shape_files](images/ac4.png)
-![csv_tables](images/ac5.png)
+![Shape_files](images/ac04.png)
+![csv_tables](images/ac05.png)
  
 
 Finally, you should get the model in QGIS:  
 
-![Model](images/ac3.png)
+![Model](images/ac03.png)
  
 
 You can add a base map in QGIS, such an OSM base layer with OpenLayers plugin: 
 
-![OSM_adding](images/ac7.png)
-![OSM_basemap](images/ac8.png)
+![OSM_adding](images/ac07.png)
+![OSM_basemap](images/ac08.png)
  
 
 Note: This example is defined in the Portuguese Grid projection - EPSG:20791  
 
-![example_projection](images/ac6.png)
+![example_projection](images/ac06.png)
  
 
 ##3. Model dataset 
@@ -64,7 +64,7 @@ Now let's take a look at the model objects. You can open the attributes table fo
 
 In this example the reservoir is defined with a fixed head and the pump is defined with an head-discharge curve defined in the "curves" table. 
 
-![reservoirs_pumps](images/ac9.png)
+![reservoirs_pumps](images/ac09.png)
  
 
 ###3.2. Tank details: 
