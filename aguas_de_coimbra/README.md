@@ -18,7 +18,7 @@ The EPANET model used in this example was developed by AC, Águas de Coimbra, E.
 
 Overall map: 
 
-![Network](images/ac01.png)
+![Network](images/ac01.pk.png)
  
 
 ##2. Model building: 
