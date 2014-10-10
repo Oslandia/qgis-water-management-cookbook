@@ -65,10 +65,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-943474.21448734495788813</xmin>
-            <ymin>4898078.80466057360172272</ymin>
-            <xmax>-935434.89435300324112177</xmax>
-            <ymax>4902569.14846664667129517</ymax>
+            <xmin>-940866.54079033294692636</xmin>
+            <ymin>4898103.49376900959759951</ymin>
+            <xmax>-938045.01965432334691286</xmax>
+            <ymax>4902560.36290388461202383</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -87,11 +87,13 @@
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:20791" srcDatumTransform="-1" destDatumTransform="-1" layerid="tanks20141007155741220"/>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="map20141010112515902"/>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:20791" srcDatumTransform="-1" destDatumTransform="-1" layerid="valves20141007155741226"/>
+            <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20141010132938600"/>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:20791" srcDatumTransform="-1" destDatumTransform="-1" layerid="reservoirs20141007155741214"/>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20141007162415033"/>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:20791" srcDatumTransform="-1" destDatumTransform="-1" layerid="junctions20141007155741195"/>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:20791" srcDatumTransform="-1" destDatumTransform="-1" layerid="pipes20141007155741202"/>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:20791" srcDatumTransform="-1" destDatumTransform="-1" layerid="pumps20141007155741208"/>
+            <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20141010133435200"/>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20141007160730430"/>
         </layer_coordinate_transform_info>
     </mapcanvas>
@@ -235,7 +237,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -277,7 +282,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -322,7 +330,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -612,7 +623,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -730,7 +744,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -769,7 +786,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -804,33 +824,14 @@
             </vectorjoins>
             <renderer-v2 symbollevels="0" type="RuleRenderer">
                 <rules>
-                    <rule filter=" &quot;Link output table (time agregates)_AvgVelocity&quot; &lt; 0.001" symbol="0" label="stagnation"/>
-                    <rule symbol="1"/>
+                    <rule symbol="0"/>
+                    <rule filter=" &quot;Link output table (time agregates)_AvgVelocity&quot; &lt; 0.001" symbol="1" label="stagnation"/>
                 </rules>
                 <symbols>
                     <symbol alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="color" v="0,0,0,255"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MM"/>
-                            <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="penstyle" v="solid"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
-                            <prop k="width_map_unit_scale" v="0,0"/>
-                            <prop k="width_unit" v="MM"/>
-                        </layer>
-                    </symbol>
-                    <symbol alpha="1" type="line" name="1">
-                        <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="round"/>
-                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="color" v="85,170,255,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="customdash_map_unit_scale" v="0,0"/>
                             <prop k="customdash_unit" v="MM"/>
@@ -841,8 +842,27 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
+                            <prop k="width" v="0.46"/>
                             <prop k="width_expression" v="Diam / 200"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <symbol alpha="1" type="line" name="1">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="255,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.66"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
@@ -1046,7 +1066,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -1322,7 +1345,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -1373,7 +1399,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -1611,7 +1640,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -1650,7 +1682,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -1970,7 +2005,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -2033,7 +2071,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -2318,7 +2359,10 @@
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
