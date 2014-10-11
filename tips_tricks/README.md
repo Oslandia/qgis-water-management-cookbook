@@ -3,7 +3,7 @@ Tips & Tricks
 
 This directory contains a list of tips & tricks useful to create EPANET and SWMM models. 
 
-Pre-processing data to build water supply and drainage models is always a hard task. Usually, available data has several errors, such as disconnected links or missing nodes, that must be corrected before running a simulation. Some work around can also be needed to combine data like assigning elevation to nodes or relating land use types with SWMM sub-catchments parameters. Hopefully, available GIS software provide nowadays several tools to manage this data and to organize it in a way that EPANET and SWMM can read it.
+Pre-processing data to build water supply and drainage models is always a hard task. Usually, available data has several errors, such as disconnected links or missing nodes, whcich must be corrected before running a simulation. Some work around can also be needed to combine data like assigning elevation to nodes or relating land use types with SWMM sub-catchments parameters. Hopefully, available GIS software provide nowadays several tools to manage this data and to organize it in a way that EPANET and SWMM can read it.
 
 
 ##Tips & tricks to build the network
